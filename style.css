@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.4rem;
+    margin: 3rem;
+}
+
+.email-list{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.email-list li{
+    list-style-type: circle;
+    margin: .4rem;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid coral;
+    border-right: 1px solid coral;
+}
+
